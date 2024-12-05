@@ -14,11 +14,13 @@ import Jqueryajax from './components/ajaxdemo/jqueryajax';
 import Axios from './components/axios/axios';
 import Courses from './components/courses/courses';
 import FetchProduct from './components/fetchProduct/fetchProduct';
+import TryFilter from './components/tryFilter/tryFilter';
+import ProductFilter from './components/tryFilter/tryFilter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FetchProduct/>
+    <ProductFilter/>
   </React.StrictMode>
 );
 
