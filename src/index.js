@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import reportWebVitals from './reportWebVitals';
+import Databinding from './components/data-binding/databinding';
+import Primitivedatabinding from './components/data-binding/primitivedatabinding';
+import Ajaxdemo from './components/ajaxdemo/ajaxdemo';
+import Fetch from './components/fetchdemo/fetch';
+import Amazon from './components/ajaxdemo/amazon';
+import Jqueryajax from './components/ajaxdemo/jqueryajax';
+import Axios from './components/axios/axios';
+import Courses from './components/courses/courses';
+import FetchProduct from './components/fetchProduct/fetchProduct';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FetchProduct/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,41 @@
+[
+    {
+        "card" : 1,
+        "title" : "Devopes",
+        "rating" : 5,
+        "start" : "12 aug 2024",
+        "faculty" : "sudhakar",
+        "duration" : "2 months",
+        "image" : "mobile2.png"
+    }, 
+
+    {
+        "card" : 2,
+        "title" : "React",
+        "rating" : 5,
+        "start" : "12 aug 2024",
+        "faculty" : "sudhakar",
+        "duration" : "2 months",
+        "image" : "mobile2.png"
+    },
+
+    {   
+        "card" : 3,
+        "title" : "Javascript",
+        "rating" : 5,
+        "start" : "12 aug 2024",
+        "faculty" : "sudhakar",
+        "duration" : "2 months",
+        "image" : "mobile2.png"
+    },
+
+    {   
+        "card" : 4,
+        "title" : "HTML",
+        "rating" : 245,
+        "start" : "12 aug 2024",
+        "faculty" : "sudhakar",
+        "duration" : "2 months",
+        "image" : "mobile2.png"
+    }
+]
