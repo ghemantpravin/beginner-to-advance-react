@@ -16,11 +16,20 @@ import Courses from './components/courses/courses';
 import FetchProduct from './components/fetchProduct/fetchProduct';
 import TryFilter from './components/tryFilter/tryFilter';
 import ProductFilter from './components/tryFilter/tryFilter';
+import NestedDemo from './components/nestedDemo/nestedDemo';
+import DateInfo from './date';
+import RegExp from './regExp';
+import EventDemo from './components/MouseEvents/event-demo';
+import EventDemo2 from './components/MouseEvents/event-demo2';
+import Twowaybinding from './components/twoWayBinding/Two-way-binding';
+import Formswitch from './components/form/Formswitch';
+import Emi from './components/emi/emi';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProductFilter/>
+    <Emi/>
   </React.StrictMode>
 );
 
