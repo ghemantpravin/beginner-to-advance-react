@@ -24,12 +24,14 @@ import EventDemo2 from './components/MouseEvents/event-demo2';
 import Twowaybinding from './components/twoWayBinding/Two-way-binding';
 import Formswitch from './components/form/Formswitch';
 import Emi from './components/emi/emi';
+import SetTimeout from './components/timeout/setTimeout';
+import FakeStoreSlider from './components/fakestoreAPISlider/fakeStore';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Emi/>
+    <FakeStoreSlider/>
   </React.StrictMode>
 );
 
