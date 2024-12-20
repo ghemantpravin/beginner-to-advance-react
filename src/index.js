@@ -26,12 +26,15 @@ import Formswitch from './components/form/Formswitch';
 import Emi from './components/emi/emi';
 import SetTimeout from './components/timeout/setTimeout';
 import FakeStoreSlider from './components/fakestoreAPISlider/fakeStore';
+import { Form } from 'formik';
+import Forms from './components/forms/forms';
+import Forms2 from './components/forms/forms2';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FakeStoreSlider/>
+    <Forms2/>
   </React.StrictMode>
 );
 
