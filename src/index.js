@@ -29,12 +29,14 @@ import FakeStoreSlider from './components/fakestoreAPISlider/fakeStore';
 import { Form } from 'formik';
 import Forms from './components/forms/forms';
 import Forms2 from './components/forms/forms2';
+import Formsyup from './components/forms/formsyup';
+import Newform from './components/forms/newform';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Forms2/>
+    <Forms/>
   </React.StrictMode>
 );
 
