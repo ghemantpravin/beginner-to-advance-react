@@ -16,6 +16,8 @@ function Newform() {
             onSubmit={(values) => {
                 console.log(values)
             }}>
+                {
+                form => 
                 <Form>
                     <p>Username</p>
                     <Field name = 'username' type='text'></Field>
@@ -29,8 +31,10 @@ function Newform() {
                     <Field name = 'mobile' type='text'></Field>
                     <p className='text-danger'><ErrorMessage  name='mobile'></ErrorMessage></p>
 
-                    <button type='submit' className='btn btn-primary'>Submit</button>
+                    <button type='submit' disabled={!form.isValid} className='btn btn-primary'>Submit</button>
+                    <button type='' disabled={(form.dirty)? 'd-inline' : 'd-none'} className='btn btn-secondary'>Save</button>
                 </Form>
+        }
             </Formik>
         </div>
     </div>

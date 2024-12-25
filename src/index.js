@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import * as bootstrap from 'bootstrap';
 import reportWebVitals from './reportWebVitals';
 import Databinding from './components/data-binding/databinding';
 import Primitivedatabinding from './components/data-binding/primitivedatabinding';
@@ -31,12 +32,17 @@ import Forms from './components/forms/forms';
 import Forms2 from './components/forms/forms2';
 import Formsyup from './components/forms/formsyup';
 import Newform from './components/forms/newform';
+import Account from './components/forms/account';
+import ImageHover from './components/imageHover/imageonhover';
+import FakestoreSearch from './components/fakestoreSearch/fakestoreSearch';
+import React_hook_form from './components/react-hook-form/react-hook-form';
+import Hook_fetch from './components/hook_Fetch/hook_fetch';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Forms/>
+    <Hook_fetch/>
   </React.StrictMode>
 );
 
