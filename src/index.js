@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import * as bootstrap from 'bootstrap';
@@ -37,12 +37,17 @@ import ImageHover from './components/imageHover/imageonhover';
 import FakestoreSearch from './components/fakestoreSearch/fakestoreSearch';
 import React_hook_form from './components/react-hook-form/react-hook-form';
 import Hook_fetch from './components/hook_Fetch/hook_fetch';
+import Navbar from './custom-components-props/navbar';
+import NavbarControlled from './components/controlled-demo-props/navbarControlled';
+import Navbar_practice from './components/controlled-demo-props/navbar_practice';
+import Cards_Main from './components/controlled-demo-props/cards_main';
+import Conditional_rendering from './components/conditional_rendering/conditional_rendering';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hook_fetch/>
+    <App/>
   </React.StrictMode>
 );
 
