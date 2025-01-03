@@ -42,12 +42,13 @@ import NavbarControlled from './components/controlled-demo-props/navbarControlle
 import Navbar_practice from './components/controlled-demo-props/navbar_practice';
 import Cards_Main from './components/controlled-demo-props/cards_main';
 import Conditional_rendering from './components/conditional_rendering/conditional_rendering';
+import LayoutRouter from './components/layoutRouter';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <LayoutRouter/>
   </React.StrictMode>
 );
 
