@@ -43,12 +43,18 @@ import Navbar_practice from './components/controlled-demo-props/navbar_practice'
 import Cards_Main from './components/controlled-demo-props/cards_main';
 import Conditional_rendering from './components/conditional_rendering/conditional_rendering';
 import LayoutRouter from './components/layoutRouter';
+import FakestoreList from './components/fakestore/fakestoreList';
+import FakestoreIndex from './components/fakestore/fakestoreIndex';
+import { CookiesProvider } from 'react-cookie';
+import FakestoreLogin from './components/fakestore/fakestoreLogin';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LayoutRouter/>
+    <CookiesProvider>
+      <FakestoreLogin/>
+    </CookiesProvider>
   </React.StrictMode>
 );
 
